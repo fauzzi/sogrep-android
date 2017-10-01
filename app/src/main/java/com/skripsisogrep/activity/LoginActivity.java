@@ -24,4 +24,9 @@ public class LoginActivity extends BaseActivity {
     void onLoginPress() {
         startActivity(new Intent(LoginActivity.this, MainActivity.class));
     }
+
+    @OnClick(R.id.textRegister)
+    void onRegisterPress() {
+        startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+    }
 }
