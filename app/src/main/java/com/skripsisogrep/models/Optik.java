@@ -1,10 +1,16 @@
 package com.skripsisogrep.models;
 
+import android.support.annotation.Nullable;
+
+import org.parceler.Parcel;
+
 /**
  * Created by Akhmad Fauzi Hasibuan on 9/30/2017
  * akhmadfauzihasibuan@gmail.com
  * https://github.com/fauzzi
  */
+
+@Parcel(Parcel.Serialization.BEAN)
 public class Optik {
 
     private String name;
@@ -14,6 +20,9 @@ public class Optik {
     private String phone;
     private String rating;
     private int picture;
+
+    public Optik() {
+    }
 
     public Optik(String name, String address, String open_time, String close_time, String phone, String rating, int picture) {
         this.name = name;

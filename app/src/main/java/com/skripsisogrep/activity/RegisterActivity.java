@@ -6,8 +6,6 @@ import android.widget.EditText;
 import com.skripsisogrep.base.ToolbarActivity;
 import com.skripsisogrep.sogrep.R;
 
-import java.io.File;
-
 import butterknife.BindView;
 
 public class RegisterActivity extends ToolbarActivity {

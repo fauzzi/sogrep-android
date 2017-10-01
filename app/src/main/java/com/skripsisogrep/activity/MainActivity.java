@@ -11,6 +11,8 @@ import com.skripsisogrep.base.DrawerLayoutActivity;
 import com.skripsisogrep.models.Optik;
 import com.skripsisogrep.sogrep.R;
 
+import org.parceler.Parcels;
+
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
@@ -39,6 +41,7 @@ public class MainActivity extends DrawerLayoutActivity {
             public void onSeeMoreClick(View view, Optik data) {
 
                 Intent intent = new Intent(MainActivity.this, MainDetailActivity.class);
+                intent.putExtra(MainDetailActivity.EXTRA_DETAIL, Parcels.wrap(data));
                 startActivity(intent);
             }
         });
