@@ -10,6 +10,12 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                manifestApplicationId: "${applicationId}",
+                pushbots_app_id      : "5a2223349b823a996b8b4573",
+                pushbots_loglevel    : "DEBUG",
+                google_sender_id     : "637629937638"
+        ]
     }
     buildTypes {
         release {
@@ -32,4 +38,6 @@ dependencies {
     annotationProcessor 'org.parceler:parceler:1.1.9'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.google.android.gms:play-services-gcm:+'
+    compile 'com.pushbots:pushbots-lib:3.0.1@aar'
 }

@@ -6,8 +6,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.pushbots.push.Pushbots;
 import com.skripsisogrep.adapters.MainAdapter;
 import com.skripsisogrep.base.DrawerLayoutActivity;
+import com.skripsisogrep.customHandler;
 import com.skripsisogrep.models.Optik;
 import com.skripsisogrep.sogrep.R;
 
@@ -23,6 +25,10 @@ public class MainActivity extends DrawerLayoutActivity {
 
     @Override
     protected void onViewCreated() {
+
+        Pushbots.sharedInstance().registerForRemoteNotifications();
+        Pushbots.sharedInstance().setCustomHandler(customHandler.class);
+
 
         mTitle.setText("Pemetaan Optik Di Medan");
 
