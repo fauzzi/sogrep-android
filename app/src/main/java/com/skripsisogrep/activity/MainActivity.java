@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 
+<<<<<<< HEAD
 import com.pushbots.push.Pushbots;
 import com.skripsisogrep.adapters.MainAdapter;
 import com.skripsisogrep.base.DrawerLayoutActivity;
@@ -13,6 +14,15 @@ import com.skripsisogrep.customHandler;
 import com.skripsisogrep.models.Optik;
 import com.skripsisogrep.sogrep.R;
 
+=======
+import com.skripsisogrep.adapters.MainAdapter;
+import com.skripsisogrep.base.DrawerLayoutActivity;
+import com.skripsisogrep.models.Optik;
+import com.skripsisogrep.sogrep.R;
+
+import org.parceler.Parcels;
+
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
@@ -26,10 +36,13 @@ public class MainActivity extends DrawerLayoutActivity {
     @Override
     protected void onViewCreated() {
 
+<<<<<<< HEAD
         Pushbots.sharedInstance().registerForRemoteNotifications();
         Pushbots.sharedInstance().setCustomHandler(customHandler.class);
 
 
+=======
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
         mTitle.setText("Pemetaan Optik Di Medan");
 
         view = LayoutInflater.from(getBaseContext()).inflate(R.layout.activity_main, frameLayout);
@@ -45,6 +58,10 @@ public class MainActivity extends DrawerLayoutActivity {
             public void onSeeMoreClick(View view, Optik data) {
 
                 Intent intent = new Intent(MainActivity.this, MainDetailActivity.class);
+<<<<<<< HEAD
+=======
+                intent.putExtra(MainDetailActivity.EXTRA_DETAIL, Parcels.wrap(data));
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
                 startActivity(intent);
             }
         });

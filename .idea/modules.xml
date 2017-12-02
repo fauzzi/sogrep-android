@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/sogrep-android.iml" filepath="$PROJECT_DIR$/sogrep-android.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/sogrep.iml" filepath="$PROJECT_DIR$/sogrep.iml" />
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
     </modules>
   </component>
 </project>

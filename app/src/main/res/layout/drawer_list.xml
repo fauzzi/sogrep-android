@@ -34,6 +34,10 @@
 
 
     <LinearLayout
+<<<<<<< HEAD
+=======
+        android:visibility="gone"
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
         android:id="@+id/contact_us"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

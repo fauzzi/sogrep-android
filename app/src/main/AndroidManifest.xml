@@ -10,9 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
         <receiver android:name="com.skripsisogrep.customHandler" />
 
+=======
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
         <activity
             android:name="com.skripsisogrep.activity.MainActivity"
             android:launchMode="singleTop"
@@ -33,6 +36,12 @@
         <activity
             android:name="com.skripsisogrep.activity.LoginActivity"
             android:screenOrientation="portrait" />
+<<<<<<< HEAD
+=======
+        <activity
+            android:name="com.skripsisogrep.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
     </application>
 
 </manifest>

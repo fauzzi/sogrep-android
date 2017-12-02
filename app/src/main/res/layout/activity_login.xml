@@ -32,7 +32,12 @@
                 android:layout_height="wrap_content"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
+<<<<<<< HEAD
                 android:maxLines="1" />
+=======
+                android:maxLines="1"
+                android:textSize="@dimen/small" />
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
 
         </android.support.design.widget.TextInputLayout>
 
@@ -48,7 +53,12 @@
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
+<<<<<<< HEAD
                 android:maxLines="1" />
+=======
+                android:maxLines="1"
+                android:textSize="@dimen/small" />
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
 
         </android.support.design.widget.TextInputLayout>
 
@@ -81,8 +91,12 @@
             android:layout_gravity="bottom"
             android:layout_marginTop="@dimen/xlarge"
             android:gravity="center|bottom"
+<<<<<<< HEAD
             android:orientation="horizontal"
             android:visibility="gone">
+=======
+            android:orientation="horizontal">
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
 
             <TextView
                 android:layout_width="wrap_content"
@@ -90,7 +104,10 @@
                 android:text="Belum mempunyai akun? " />
 
             <TextView
+<<<<<<< HEAD
 
+=======
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
                 android:id="@+id/textRegister"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

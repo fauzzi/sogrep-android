@@ -2,4 +2,9 @@
     <string name="app_name">Sogrep</string>
     <string name="close">close</string>
     <string name="open">open</string>
+<<<<<<< HEAD
+=======
+
+    <string name="termandcondition"><u>Saya menyetujui Syarat &amp; Ketentuan serta Kebijakan Privasi</u>.</string>
+>>>>>>> 145538146323b1263bfe98bb1829263ed6a24cfc
 </resources>
